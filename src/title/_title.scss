@@ -1,0 +1,30 @@
+@font-face"Athelas"{
+
+}
+
+.title{
+   position: relative;
+   background-color: #b7bcbe;
+   margin: 120px 0 0 0;
+   padding:0;
+   height: 380px;
+   text-transform: uppercase;
+}
+.title-welcome{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-right: 70px;
+   padding-bottom: 80px;
+   font-size: 36px;
+   font-weight: normal;
+   color: white;
+}
+
+.title a{
+   color: #d7794a;
+   position: absolute;
+   right: 0;
+   bottom: 50px;
+   padding-right: 130px;
+}

@@ -1,0 +1,9 @@
+@import "_reset-src.scss";
+@import "header/header";
+@import"title/title";
+@import"about/about";
+
+body{
+    background-color: #fff;
+    height: 100%;
+}
