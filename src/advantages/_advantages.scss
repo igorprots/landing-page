@@ -1,0 +1,29 @@
+.advantages_body{
+    background-color: #1f3138;
+    height: 170px;
+    margin: 0 auto;
+}
+.advantages_content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.advantages_info{
+    display: block;
+    align-content: center;
+    padding: 34px 0 0 0;
+
+
+    h5{
+        font-family: 'vani';
+        font-size: 38px;
+        font-weight: bold;
+        color: #995437;
+        margin-bottom: 26px;
+    }
+    p{
+        text-transform: uppercase;
+        color:white;
+    }
+}
