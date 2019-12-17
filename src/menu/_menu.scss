@@ -1,0 +1,39 @@
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    display: block;
+    background-color: #898d8e;
+    text-transform: uppercase;
+}
+
+.menu li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.menu li a {
+    float: left;
+    padding-left: 15px;
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+
+.menu li a span {
+    line-height: 30px;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.menu li a.active,
+.menu li a.active:hover {
+    line-height: 30px;
+    background: #7d9097;
+    height: 100%;
+}
