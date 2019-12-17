@@ -15,11 +15,13 @@
 
 .footer_bottom{
     height: 45px;
-
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer__copyright{
+    color: white;
 }
 
 .footer__contacs{
