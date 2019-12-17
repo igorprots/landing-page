@@ -1,16 +1,43 @@
-.contacts{
+.contacts {
     height: 718px;
     background-color: #1f3138;
+    position: relative;
 }
 
-.contacts_body{
-    h3{
-        font-family: 'Athelas';
-        font-size: 64px;
-    }
+.contacts_body {
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
     text-align: center;
     width: 570px;
+
+    h3 {
+        font-family: 'Athelas';
+        font-size: 64px;
+        letter-spacing:normal;
+    }
 }
-.contacts_form{
-    
+
+.contacts_title {
+    text-align: center
+}
+
+.contacts_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    input,
+    textarea {
+        background-color: #1f3138;
+
+    }
+}
+
+.koment {
+    background-color: #1f3138;
 }
