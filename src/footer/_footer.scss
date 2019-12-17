@@ -1,18 +1,22 @@
 .fototer_body{
     height: 190px;
     width: 100%;
-    background-color: #1f3138;
+    background-color: black;
+
     border: 1px solid white;
 }
 
 .fotter_top{
- border: 2px solid red;
- width: 100%;
+    border: 2px solid red;
+    width: 100%;
+    height:120px;
+    background-color: #1f3138;
 }
 
 .footer_bottom{
     height: 45px;
-    background-color: black;
+
+    margin-bottom: 0;
 }
 
 .footer__copyright{
